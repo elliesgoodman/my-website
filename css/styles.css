@@ -1,0 +1,46 @@
+body{
+  font-family:"Avenir Next","sans-serif";
+	margin: 0;
+  font-size: 14px;
+  color: black;
+}
+
+/*Styling the top navigation bar*/
+.navbar {
+	overflow: hidden;
+	background-color: white;
+  text-transform: lowercase;
+  font-size: 14px;
+  letter-spacing: 0.3em;
+  padding-top: 10px
+}
+
+/*Styling the navbar links (my buttons)*/
+.navbar a{
+	float: left;
+	color: black;
+	text-align: center;
+	padding: 18px 40px;
+	text-decoration: none;
+}
+.navbar a.logo {
+  padding-top: 10px;
+}
+.navbar a.right {
+	float: right;
+
+}
+
+/*Change colour of link on hover in navbar*/
+.navbar a:hover{
+	color: rgb(49 19 124);
+  text-transform: lowercase;
+  font-size: 16px;
+}
+
+.main {
+  float: center;
+  display: block;
+  text-align: center;
+  margin: 30vh 10vw
+}
