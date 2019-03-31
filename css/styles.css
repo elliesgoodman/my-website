@@ -8,35 +8,20 @@ body{
 ul {
   list-style: none;
   display: flex;
-  justify-content: space-evenly;
+  flex-align: space-evenly;
 }
 
-/*Styling the top navigation bar*/
-.navbar {
-	overflow: hidden;
-	background-color: white;
-  text-transform: lowercase;
-  font-size: 14px;
-  letter-spacing: 0.3em;
-  padding-top: 10px
-}
-
-/*Styling the navbar links (my buttons)*/
-.navbar a{
-	color: black;
-	text-align: center;
-	padding: 18px 40px;
-	text-decoration: none;
-}
-.navbar a.logo {
-  padding-top: 10px;
-}
-
-/*Change colour of link on hover in navbar*/
-.navbar a:hover{
-	color: rgb(49 19 124);
-  text-transform: lowercase;
-  font-size: 16px;
+#header {
+  background-color: #f1f1f1;
+  padding: 50px 10px;
+  color: black;
+  text-align: center;
+  font-size: 90px;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: 0.2s;
 }
 
 .main {
