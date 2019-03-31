@@ -5,6 +5,12 @@ body{
   color: black;
 }
 
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
 /*Styling the top navigation bar*/
 .navbar {
 	overflow: hidden;
@@ -17,7 +23,6 @@ body{
 
 /*Styling the navbar links (my buttons)*/
 .navbar a{
-	float: left;
 	color: black;
 	text-align: center;
 	padding: 18px 40px;
@@ -25,10 +30,6 @@ body{
 }
 .navbar a.logo {
   padding-top: 10px;
-}
-.navbar a.right {
-	float: right;
-
 }
 
 /*Change colour of link on hover in navbar*/
