@@ -5,13 +5,28 @@ body{
   color: black;
 }
 
-ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-evenly;
+.toplogo img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  padding-top: 20px;
 }
 
+.toplogo img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+
 /*Styling the top navigation bar*/
+#navwrapper {
+  position: sticky;
+  top: 0; left: 0;
+  width: 100%;
+  scale: 2;
+}
+
 .navbar {
 	overflow: hidden;
 	background-color: white;
@@ -19,8 +34,18 @@ ul {
   font-size: 14px;
   letter-spacing: 0.3em;
   padding-top: 10px
+  position: sticky;
 }
 
+#mainnav{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navbar img {
+  display: none;
+}
 /*Styling the navbar links (my buttons)*/
 .navbar a{
 	color: black;
@@ -44,4 +69,6 @@ ul {
   display: block;
   text-align: center;
   margin: 30vh 10vw
+  background-color: rgb(201, 46, 133); /*For browsers that do not support gradients */
+  background-image:repeating-linear-gradient(to bottom right, rgb(201, 46, 133),rgb(0, 181, 224) );
 }
