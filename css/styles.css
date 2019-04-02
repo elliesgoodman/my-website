@@ -10,7 +10,12 @@ ul {
   display: flex;
   justify-content: space-evenly;
 }
-
+#nav-wrapper {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    scale: 2;
+}
 /*Styling the top navigation bar*/
 .navbar {
 	overflow: hidden;
